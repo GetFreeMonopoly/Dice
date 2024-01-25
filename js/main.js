@@ -1,511 +1,436 @@
-$(document).ready(function() {
+	var coinsNums = [240000, 640000, 1440000, 3400000, 10800000, 25600000];
+	var rollsNums = ['30', '80', '180', '425', '1400', '3200'];
+	var rollsExtraNums = ['50', '160', '450', '1250', '5000', '15000'];
+	var platforms = ['<i class="fab fa-apple"></i>','<i class="fab fa-android"></i>'];
 	
+    var users = ["TurtletheCat","Pobelter","EugeneJPark","Doublelift","C9Sneaky","lamBjerg","Popobelterold","HOGEE","WizFujiiN","HotGuy6Pack","dawoofsclaw","TiPApollo","Soeren","FSNChunkyfresh","Ariana22ROO","Waker","Podu","C9Hard","Shiphtur","HOoZy","Chapanya","Dyrus","Entranced","WildTurtle","WildTurtl","lntense","Hauntzer","LiquidFeniX","THExJOHNxCENA555","Imaqtpie","ZionSpartan","JJackstar","Ekkocat","LiquidKEITH","mldkingking","Loopercorn","TiPMa","Ohhhq","ninjamaster69xxx","CaliTrlolz8","ice","C9Meteos","JannaMechanics","KEITHMCBRIEF","dunamis","Quasmire","scorro","LiquidQuas","GVHauntzer","PengYiliang","Casely","wahoolahoola","godisfeng66666","Zbuum","ilovefatdongs","TransIogic","LemonBoy","Link","Chipotlehunter","TDKkina","DJTrance","Duocek","Hate","KonKwon","Nihillmatic","Zaryab","intero","Biofrost","LongCat4","CSTJesiz","GVKeane","TiPyoondog","RedoutabIe","LiquidXpecial","JayJ","GVCop","iKeNNyu","C9Hai","FunFrock","CLGLourlo","evertan","Chaullenger","Aniratak","PorpoiseDeluxe","Isuyu","CLGDandyLite","Arcsecond","BloodWater","Jynthe","Sickoscott","RickyTang","DaBox","ALLRekklesvNA","Hoofspark","DuBuKiD","AdrianMa","GuriAndGunji","stuntopia","RyanChoi","AiShiTeru","FSNMeMer","J0kes","C9Balls","C9SoIo","yungmulahBABY","FeelTheLove","dawolfsclaw","BaamSouma","NMEotter","stuntopolis","llRomell","GoJeongPa","p0z","Trisexual","MarkPassion","Seeiya","AAltec","C9LemonNation","maplestreet8","goldenglue","MegaZero","VIPEEEEEEEEEEEER","Panchie","fabbbyyy","halo3madsniper","iLucent","1k2o1ko12ko12ko2","Bokbokimacat","VANISHINGDRAG0N","LiquidPiglet","playmkngsupport","Gambler","Gaggiano","JJayel","JoopsaKid","1brayle","Azingy","Kebrex","WahzYan","willxo","TailsLoL","darksnipa47","Thyak","JimmyTalon","vane","sooyoung","lalaisland","Lourlo","Sunar","PlayWithAnimals","scarra","HUYAGorilIA","Lock0nStratos","aphromoo","KMadClown","ChaIlengerAhri","YY90001PiKaChu","Thefatkidfromup","ahqwe5tdoor","Nintenpai","JustJayce","toontown","BasedYoona","GoldStars","ExecutionerKen","nicemoves","InvertedComposer","LiquidIWD","Stan007","woshishabi","JukeKing","xPecake","BlGHUEVOS","Plun","KingCobra","TDKSmoothie","TSMLustboy","C10Meteos","lllllllllllllIII","ohdaughter","PekinWoof","BrandonFtw8","m2sticc","DaiJurJur","DontMashMe","CaseOpened","otte","wutroletoplay","Thurtle","Dodo8","Frostalicious","bobqinXD","MrCarter","Hellkey","Chimonaa1","DaBoxII","GVVicious","Jummychu","PAlNLESS","LiLBunnyFuFuu","Lukeeeeeeeeee","Lattman","Daserer","AlliancePatrick","Lionsexual","St1xxay","Kojolika","CSTCris","KojotheCat","StellaLoussier","Gleebglarbu","Altrum","RiotMeyeA","Rule18","mandatorycloud","Tritan","LiquidDominate","cidadedecack","RoA","BillyBoss","xPepastel","TaketheDraw","ST2g","Migipooop","dKiWiKid","NMEflareszx","Gundamu","imp","DDABONG","Daydreamin","Nightlie","MRHIGHLIGHTREEL","Shweeb","JinMori","Tailsz","Bischu","CRBRakin","Chaox","Grigne","LogicalDan","DAKular","DifferentSword","Geranimoo","InnoX","FishingforUrf","FluffyKittens206","ImJinAh","CloudNguyen","moonway","whoishe","TiensiNoAkuma","Ethil","nothinghere","SuperMetroid","hiimgosu","Mammon","BGJessicaJung","coBBz","waitingforu","LearningToPIay","YiOwO","heavenTime","AnDa","WakaWaka","hashinshin","TDKKez","MariaCreveling","Cypress","YahooDotCom","Phanimal","Aror","RFLegendary","BenNguyen","AHHHHHHHHH","Linsanityy","Valkrin","Gate","Allorim","Johnp0t","Superrrman","Laughing","AKAPapaChau","denoshuresK","Anthony","Nightblue3","Aranium","Pallione","BamfDotaPlayer","FakerSama","xiaolan","Sweept","HooManDu","XiaoWeiXiao","HctMike","Revenge","Apauloh","latebloomer","CRBFyre","MongolWarrior","Hiphophammer","CoachLFProTeam","hiimria","Jackoo","Saskio","DadeFakerPawn","GVStvicious","NeonSurge","NMEBodydrop","MatLifeTriHard","PantsareDragon","GinormousNoob","IMbz","miqo","VoyboyCARRY","Hakuho","Hexadecimal","themassacre8","Ayr","SeaHorsee","F0rtissimo","GamerXz","Remie","Soghp","Raimazz","Ultimazero","bigfatlp","NMETrashyy","C9LOD","Popuh","SAGASUPVEIGM","Iamagoodboy","TrollerDog","Descraton","LiquidInoriTV","MiniMe","IlIlIIIlIIIIlIII","Shweebie","KatLissEverdeen","PoppersOP","B1GKr1T","DGB","stephyscute2","TEESEMM","Cyprincess","baohando","urbutts","maplestreeTT","jamee","SawitonReddit","VeryBitter","BenignSentinel","MrJuvel","Denny","LeeGuitarStringa","DKrupt","LAGEhsher","eLLinOiSe","MochiBalls","Sonnynot6","ixou","Taeyawn","Dezx","7hThintoN","BeautifulKorean","VwSTeesum","TLIWDominate","Vsepr","ktSmurf","Vultix","Soredemo","ROBERTxLEE","AnnieBot","aksn1per","IamFearless","FrostyLights","SoYung","Tuoooor","Polx","Agolite","CloudWater","Delta","LAGOrbwalk","sexycan","SimonHawkes","Rohammers","NMEInnoX","ChineseJester","IAmDoughboy","Cytosine","Vanxer","SDiana2","Araya","TheItalianOne","F1Flow","Kazahana","Malajukii","xiaoweiba","JoshMabrey","shinymew","Event","freelancer18","ZnipetheDog","hiitsviper","HappyBirfdizzay","Abou222","Gir1shot2diamond","KiNGNidhogg","PurpleFloyd","Rathul","Kwaku","BeachedWhaIe","14h","Xpecial","CLGThink","Aiciel","oerh","butttpounder","TalkPIayLove","jordank","TwistyJuker","MeganFoxisGG","NiHaoDyLan","TallerACE","Doomtrobo","Wardrium","TwtchTviLoveSezu","Westrice","iMysterious","BennyHung","EnmaDaiO","xTc4","FallenBandit","RumbIeMidGG","deft1","GochuHunter","XxRobvanxX","DuoChiDianShi","coLBubbadub","LeBulbe","TanHat","Dusty","Jibberwackey","Tallwhitebro","llllllllllllIIII","LilBuu","Diamond","cesuna","BigolRon","xSojin","Gh3ttoWatermelon","KingofMemes","111094Jrh","bive","Yammy","FasScriptor","Docxm","GVBunnyFuFuu","Alphabetical","Liquidzig","YouHadNoDream","TINYHUEVOS","Sheepx","GangstaSwerve","LeBulbetier","amandagugu","Rushmore","AnnieCHastur","OverlordForte","Muffintopper66","Kazura","zetsuen","wozhixiangyin","CaptainNuke","alextheman","Seongmin","Working","kyaasenpaix3","gurminder","VwSKhoachitizer","TGZ","KrucifixKricc","Kevnn","Academiic","ArianaLovato","Elemia","CLGDeftsu","XerbeK","CeIestic","RedEyeAkame","Kerpal","xFSNSaber","MakNooN","Hcore","MrGamer","zeralf","Fenixlol","Indivisible","SHOWMETHEMONEY","Adorations","Niqhtmarex","RambointheJungle","Iucid","iOddOrange","Uncover","DD666666","r0b0cop","VictoricaDebloiz","Gleebglarb","EmperorSteeleye","SillyAdam","whBox","tempname456543","FeedOn","iJesus69","OmegaB","Riftcrawl","Xandertrax","Krymer","TwistedSun","DeTRFShinmori","RiceFox","iKoogar","Mizuji","White","zgerman","FORG1VENliftlift","sakurafIowers","xSaury","PiPiPig","Pyrr","TheCptAmerica","NtzNasty","SlowlyDriftnAway","cre4tive","LAGGoldenShiv","FSNDLuffy","NintendudeX","duliniul","Cybody","Odete49","TFBlade","Platoon","CopyCat","BarbecueRibs","TitanDweevil","HeroesOfTheStorm","JRT94","RedBerrrys","Rockblood","YoloOno","BalmungLFT","IreliaCarriesU","LikeAMaws","PaulDano","ErzaScarIet","KiritoKamui","ProofOfPayment","DonPorks","BarronZzZ","Pikaboo","aLeo","MikeytheBully","7Qing","BillyBossXD","DragonRaider","Haughty","KMadClowns","ikORY","Nikkone","WeixiaTianshi","QQ346443922","FoxDog","Tahx","Hawk","Haruka","Scrumm","cackgod","iAmNotSorry","coLROBERTO","GladeGleamBright","MonkeyDufle","M1ssBear","theletter3","Sandrew","RongRe","MrGatsby","xBlueMoon","Merryem","ElkWhisperer","Enticed","Draguner","DeliciousMilkGG","Patoy","Lucl3n3Ch4k0","Smoian","Piaget","Xiaomi","zeflife","IsDatLohpally","HatersWantToBeMe","Blackmill","PrinceChumpJohn","NhatNguyen","Nebulite","IAmTheIRS","TedStickles","LOD","CallMeExtremity","kimjeii","Kappasun","JJJackstar","TSMMeNoHaxor","Zealous","Normalize","Topcatz","KimchimanBegins","DrawingPalette","AnarchyofDinh","hiimxiao","MikeHct","Manco","ChumpJohnsTeemo","Heejae","delirous","Iodus","WakaWakaWak","Hawez","ThaOGTschussi","TwistedFox","PureCorruption","HotshotGG","Turdelz","ysohardstylez","Brainfre3z","ilyTaylor","Zaineking","QualityADC","LingTong","DyrudeJstormRMX","AnObesePanda","silvermidget","CornStyle","LafalgarTaw","Zeyzal","Meowwww","Pokemorph","JimmyHong","Hoardedsoviet","Nematic","C9Yusui","BlownbyJanna","Sojs","Cerathe","FairieTail","Xeralis","ichibaNNN","SerenityKitty","Contractz","WWvvWvvWvvwWwvww","BlueHole","SAGANoPause","Mookiez","RiotChun","ValkrinSenpai","HeXrisen","CptJack","Sleepyz","HurricaneJanna","ToxiGood","ItsYourChoice","TaintedDucky","probablycoL","Ina","FreeGaming","Phaxen","tofumanoftruth","xHeroofChaos","Rockllee","Sunohara","Ryzer","SpiritDog","Kazma","Sjvir","Maulface","SombreroGalaxy","Bebhead","ecco","AurionKratos","RoseByrne","Kammgefahr","VwSSandvich","TDKLouisXGeeGee","Picarus","erwinbooze","xrawrgasm","Tangularx","CSauce","Back2Nexus","SepekuAW","Chuuper","Airtom","pro711","Theifz","SirhcEezy","LuckyLone56","AtomicN","Splorchicken","00000000","UpAIlNight","k3soju","MikeyC","s7efen","FENOMENO","XIVJan","Splorgen","djpocketchange","Oasis","Iggypop","BallsInYourFace","dopa7","MasterDragonKing","ssforfail","MissyQing","Endlesss","badeed","SmooshyCake","Karmix","Alestz","svbk","KissMeRDJ","TeaMALaoSong","drallaBnayR","CHRISTHORMANN","KnivesMillions","MahNeega","Sphinx","Impasse","Stefono62","CLGEasy","GankedFromAbove","IslandLager","MrJuneJune","BrianTheis","ShorterACE","morippe","Meatmush","Dusey","Paperkat","Submit","TooPro4u","Porogami","iuzi","Suzikai","TDKNear","LiquidInori","Deleted","NtzLeopard","UnKooL","Desu","Born4this","sickening","AllianceMike","Dinklebergg","YouGotFaker","FusionSin","IMBAYoungGooby","Neverlike","BestGodniviaNA","FFat20GGWP","kMSeunG","AliBracamontes","rua0311desuyo","54Bomb99","jivhust","Penguinpreacher","Yashimasta","Erurikku","ReeferChiefer420","WonderfulTea","Gamely","OberonDark","Imunne","Hoeji","xTearz","NicoleKidman","DonDardanoni","Wonderfuls","HentaiKatness69","Ayai","EREnko","Cruzerthebruzer","Connort","Anoledoran","BiggestNoob","Anangelababy007","TrojanPanda","MasterCoach","Kirmora","wswgou","NMEotterr","DragonxCharl","uJ3lly","moosebreeder","Strompest","Kurumx","Protective","LegacyofHao","DkBnet","koreas","AxelAxis","NiMaTMSiLe","Preachy","WoahItsJoe","XXRhythmMasterXX","Lemin","Destinedwithin","Afflictive","Nydukon","Herald0fDeath","ChowPingPong","QuanNguyen","interest","Slylittlefox121","VictimOfTalent","chadiansile","iToradorable","BIackWinter","Mazrer","NKSoju","nhocBym","Dreemo","Virus","CowGoesMooooo","Masrer","Michaelcreative","Emanpop","Druiddroid","KevonBurt","Magicians","HiImYolo","LoveSick","kamonika","Chunkyfresh","tongsoojosim","hiimrogue","Zookerz","LiShengShun","DeTFMYumenoti","EddieMasao","AGilletteRazor","andtheknee","Hazedlol","SrsBznsBro","Spreek","Toxil","JustinJoe","Silverblade12345","WalterWhiteOG","SwiftyNyce","Volt","DoctorElo","Connie","DELLZOR","aiopqwe","MidnightBoba","Sikeylol","Warmogger","Melhsa","OmekoMushi","Life","SleepyDinosaur","Leonard","CatVomit","Likang45","PSiloveyou","xtsetse","ClydeBotNA","Cpense","Arakune","shadowshifte","LeeBai","SexualSavant","CornChowder","DeTRFEsteL","Astro","deDeezer","Jayms","v1anddrotate","JGLafter","UhKili","Aceyy","Zik","RiNDiN","Grandederp","KawaiiTheo","Senjogahara","Th3FooL","GusTn","TheTyrant","GoJeonPa","DJJingYun","Egotesticle","IoveLu","OGNEunJungCho","kevybear","ImJas","Agrorenn","Synxia","DouyuTVForgottt","GrimSamurai","6666666666666","RockleeCtrl","Xode","QQ459680082","KittenAnya","Zakard","MARSIRELIA","WallOfText","SireSnoopy","kelppowder","Hxadecimal","onelaugh","MisoMango","PiggyAzalea","MisterDon","VirginEmperor","suzuXIII","P18GEMEINV","Kurumz","kjin","CcLiuShicC","ExileOfTheBlade","Iambbb","Fubguns","Asutarotto","WhatisLove","Niqhtmarea","L0LWal","JannaFKennedy","Steffypoo","KillerHeedonge","AsianSGpotato","whiteclaw","GATOAmyTorin","lovemyRMB","Frostarix","voyyboy","Melo","RiotZALE","ElvishGleeman","givesyouwiings","LoveIy","Packy","Ntzsmgyu","Susice","Dontqqnubz","mikeshiwuer","Chulss","MASTERDING","Scorpionz","KKOBONG","Veeless","NtzMoon","Leesinwiches","RefuseFate","TP101","ozoss0","SeaShell","Baesed","Foolish","jivhust1","KMadKing","CHRlSS","jbraggs","BeefTacos","Xoqe","Naeim","Aerodactyl","Triett","194IQredditor","Pulzar","Windgelu","Suadero","Zulgor","Senks","cAbstracT","SwagersKing","AkameBestGirl","ThePrimaryEdict","arthasqt","Lobstery","MisterOombadu","TheFriendlyDofu","Oryziaslatipes","ugg1","Flandoor","HawkStandard","wimbis","JimmerFredette","VikingKarots","Sorcerawr","Ciscla","Suffix","MrCow","METALCHOCOB0","Dessias","LevelPerfect","midVox","Junha","Hickus","gamepiong","AirscendoSona","HellooKittie","Jesse","Rainaa","ILoveNASoloQ","Colonelk1","DeTRFZerost","Szmao","TacoKat","1tzJustVictor","HomedogPaws","DioDeSol","PeterBrown","FrannyPack","AbsoluteFridges","TheBiddler","ELMdamemitai","Old","Pavle","nathanielbee","MakiIsuzuSento","nweHuang","EvanRL","yorozu","forgivenbow","alexxisss","Cloverblood","Entities","Believe","Chiruno","Xiaobanma","BestJanna","Neko","TheEyeofHorus","IGotSunshine","Shade20","Sprusse","Imacarebear","Kenleebudouchu","LockDownExec","Chubymonkey","HunterHagen","Applum","DaoKho","MrBlackburn","beatmymeat","BestDota2Sona","chubbiercheeks","KillaKast","Betsujin","TheAmberTeahouse","BellaFlica","ManateeWaffles","Babalew","charmanderu","TooSalty","LotusBoyKiller","Bulgogeeeee","Nerzhu1","Lovelyiris","QuantumFizzics","freakingnoodles","Pdop1","Bakudanx","Martel","DoctorDoom","equalix","CARDCAPTORCARD","Dyad","Papasmuff","TheBroskie","Wadenation","Flyinpiggy","Wingsofdeathx","IamOsiris","ArtThief","LotusEdge","fwii","Kios","Shampu","Nickpappa","Yukari","RayXu","Emeraldancer","TwoPants","EnzoIX","Jacka","Plumber","Skadanton","C9TGleebglarbu","BonQuish","GrimmmmmmmReaper","SmoSmoSmo","MewtMe","Ramzlol","Mruseless","Eitori","S0lipsism","X1337Gm4uLk03rX","lloveOreo","MrChivalry","Oyt","AnVu","RBbabbong","MASTERROSHl","dabestmelon","Potatooooooooooo","KasuganoHaru","C9BalIs","stainzoid","MrArceeSenpaiSir","sweetinnocence","Firehazerd","EpicLynx","2011","PandaCoupIe","Moelon","KingKenneth","Skinathonian","FelixCC","snowmine","Acme","QmoneyAKAQdollas","Fexir","ImbaDreaMeR","ImNovel","ButtercupShawty","touch","penguin","Promitio","DeTRFMoyashi","Hordstyle","Iizard","Jintae","pichumy","Upu","Iemonlimesodas","TwitchTvAuke","Promises","Jintea","OMikasaAckermanO","wompwompwompwomp","Kiyoon","LiquidNyjacky","ATColdblood","SandPaperX","0Sleepless","pr0llylol","AxelsFinalFlame","DrSeussGRINCH","ZENPhooka","oMizu","HamSammiches","Pcboy","RamenWithCheese","Yook","Dafreakz","Winno","XxWarDoomxX","LifelessEyes","UrekMazin0","FrenchLady","Pillowesque","GodOfZed","D3cimat3r","broIy","1stTimeDraven","Exxpression","godofcontrol","nokappazone","Shoopufff","IlIIlII","Fragnat1c","Abidius","irvintaype","YellOwish","japanman","CaristinnQT","LeithaI","Kitzuo","Akatsuki","ROBERTZEBRONZE","aenba","Arcenius","Torgun","Ryden7","Entus","CutestNeo","MonkeyDx","Xerosenkio","JHHoon","DeTFMCeros","Rakinas","MetaRhyperior","MegaMilkGG","EmilyVanCamp","SecretofMana","Snidstrat","SJAero","Mixture","Teaz89","ArizonaGreenTea","AKASIeepingDAWG","sh4pa","Hanjaro","BestFelixNA","Dragles","TummyTuck","sciberbia","KLucid","Isunari","lAtmospherel","Zwag","yuBinstah","ionz","Nove","Nickywu","BlueRainn","lilgrim","Rekeri","Kaichu","Arnold","ArcticPuffin11","UnholyNirvana","IREGlNALD"];
+
 	
-	$('#blurred-resources').click(function() {
-		sweetAlert("Error", "Please enter your Username and select your platform.", "error");				      
-    });
-	
-	//Resource 1 Progress Bar
-	function progressBar(percent, $element) {
-		var progressBarWidth = percent * $element.width() / 100;
-		$element.find('div').animate({ width: progressBarWidth }, 500).html(percent + "%&nbsp;");
-	}
-	progressBar(20, $('#progressBar'));
+	var timeOutNum = 0;
+	var interval;
+	var html;
+	/*
+	var generateTemplate = function(){
+		var userID = rand( 0, users.length );
+		var coinNum = rand( 0, coinNums.length - 1 );
 		
-	var select = $( "#resource-item-1-amount-wrapper" );
-	var slider = $( "<div id='slider-resource-1'></div>" ).insertAfter( select ).slider({
-		min: 200000,
-		max: 1000000,
-		value: 200000,
-		range: "min",
-		change: function(event, ui) { 
-			var sliderValue = $( "#slider-resource-1" ).slider( "option", "value" );				
-			$('#resource-1-amount').html(sliderValue);
-			if(sliderValue == '200000') {
-				progressBar(20, $('#progressBar'));
-				$('#decrease-resource-1').addClass('btn-disabled');			
-			}
-			else if (sliderValue == '400000') {
-				progressBar(40, $('#progressBar'));
-				$('#decrease-resource-1').removeClass('btn-disabled');
-			}
-			else if (sliderValue == '600000') {
-				progressBar(60, $('#progressBar'));
-			}
-			else if (sliderValue == '800000') {
-				progressBar(80, $('#progressBar'));
-				$('#increase-resource-1').removeClass('btn-disabled');
-			}
-			else if (sliderValue == '1000000') {
-				progressBar(100, $('#progressBar'));
-				$('#increase-resource-1').addClass('btn-disabled');
-			}
-		}        
-	});	
-	
-	$('#increase-resource-1').click(function() {
-		var sliderCurrentValue = $( "#slider-resource-1" ).slider( "option", "value" );
-		slider.slider( "value", sliderCurrentValue + 200000 );		
-	});
-	$('#decrease-resource-1').click(function() {
-		var sliderCurrentValue = $( "#slider-resource-1" ).slider( "option", "value" );
-		slider.slider( "value", sliderCurrentValue - 200000 );	
-	});	
-	
-	//Resource 2 Progress Bar
-	function progressBarResource2(percent, $element) {
-		var progressBarResource2Width = percent * $element.width() / 100;
-		$element.find('div').animate({ width: progressBarResource2Width }, 500).html(percent + "%&nbsp;");
-	}
-	progressBarResource2(20, $('#progressBarResource2'));
-	var selectResource2 = $( "#resource-item-2-amount-wrapper" );
-	var sliderResource2 = $( "<div id='slider-resource-2'></div>" ).insertAfter( selectResource2 ).slider({
-		min: 10000,
-		max: 50000,
-		value: 10000,
-		range: "min",
-		change: function(event, ui) { 
-				var sliderValueResource2 = $( "#slider-resource-2" ).slider( "option", "value" );
-				$('#resource-2-amount').html(sliderValueResource2);
-					if(sliderValueResource2 == '10000') {
-						progressBarResource2(20, $('#progressBarResource2'));
-						$('#decrease-resource-2').addClass('btn-disabled');
-					}
-					else if (sliderValueResource2 == '20000') {
-						progressBarResource2(40, $('#progressBarResource2'));
-						$('#decrease-resource-2').removeClass('btn-disabled');
-					}
-					else if (sliderValueResource2 == '30000') {
-						progressBarResource2(60, $('#progressBarResource2'));
-					}
-					else if (sliderValueResource2 == '40000') {
-						progressBarResource2(80, $('#progressBarResource2'));
-						$('#increase-resource-2').removeClass('btn-disabled');
-					}
-					else if (sliderValueResource2 == '50000') {
-						progressBarResource2(100, $('#progressBarResource2'));
-						$('#increase-resource-2').addClass('btn-disabled');
-					}
-				}        
-	});
-	$('#increase-resource-2').click(function() {
-		var sliderCurrentResource2Value = $( "#slider-resource-2" ).slider( "option", "value" );
-		sliderResource2.slider( "value", sliderCurrentResource2Value + 10000 );	
-	});
-	$('#decrease-resource-2').click(function() {
-		var sliderCurrentResource2Value = $( "#slider-resource-2" ).slider( "option", "value" );
-		sliderResource2.slider( "value", sliderCurrentResource2Value - 10000 );
-	});	
-	
-	function progressBarConsole(percent, $element) {
-		var progressBarConsoleWidth = percent * $element.width() / 100;
-		$element.find('div').animate({ width: progressBarConsoleWidth }, 500).html(percent + "%&nbsp;");
-	}
-	progressBarConsole(1, $('#progressBarConsole'));
-	
-	$('#connect-button').click(function () {
-		if($('#coc-player-tag').val().length > 2){
-			$.magnificPopup.open({
-				items: {
-					src: '#message-wrapper',
-				},
-				type: 'inline',
-				preloader: false,
-				modal: true,
-				mainClass: 'mfp-fade'
-			});
-			$('.message-header h3').html("Connecting Account");	
-			$('.message-header p.message-header-subtitle').html("Please wait for generator to connect with your account.");		
-			$(".message-content p.console-message").fadeIn();	
-			var $console_message_username_msg = $('#coc-player-tag').val();
-			var $console_message_platform_msg = $('#coc-player-platform').val();
-			setTimeout(function() {	
-				$(".console-loadbar").fadeIn();
-				$(".message-content p.console-message").typed({
-					strings: ["Connecting to Username <span class='console-message-connected-item'>" + $console_message_username_msg + "</span> on <span class='console-message-connected-item'>" + $console_message_platform_msg + "</span>"],
-					showCursor: false,
-					typeSpeed: -50,
-					onStringTyped: function() {
-						progressBar(20, $('#progressBarConsole'));
-					}
-				});
-			}, 500 );
-			setTimeout(function() {	
-					$(".message-content p.console-message").addClass('bounce animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-					$(this).removeClass('bounce animated');
-				});
-			}, 3500 );	
-			setTimeout(function() {	
-				$(".message-content p.console-message").typed({
-					strings: ["Connected to Username <span class='console-message-connected-item'>" + $console_message_username_msg + "</span>"],
-					showCursor: false,
-					typeSpeed: -50,
-					onStringTyped: function() {
-						progressBar(100, $('#progressBarConsole'));
-						setTimeout(function() {	
-							$('#resources-select-wrapper').removeClass('resources-select-wrapper-blurred');
-							$('#account-information-wrapper').addClass('account-wrapper-blurred');
-							$('#blurred-account').fadeIn();
-							$('#blurred-resources').remove();
-							$.magnificPopup.close();
-							$(".message-content p.console-message").hide();
-							progressBar(0, $('#progressBarConsole'));
-							progressBar(20, $('#progressBar'));
-							progressBarResource2(20, $('#progressBarResource2'));	
-							$('html, body').animate({
-								scrollTop: $("#resources-select-wrapper").offset().top
-							}, 2000);
-						}, 1500 );
-					}
-				});
-			}, 4800 );
+		var platformId = rand( 0, platforms.length - 1 );
+		
+		timeOutNum = rand( 2000, 5000 );
+		var totalActivity = $('.single-act');
+		if(totalActivity.length >= 12){
+			//return false;
+			$(totalActivity[totalActivity.length - 1]).remove();
+		}else{
+			timeOutNum = 0;
 		}
-		else {
-			sweetAlert("Error", "Please enter your Username.", "error");
-		}
-	});	
+		
+				html = '<div class="col-12 col-sm-6 col-md-4 col-lg-3 single-act mb-4 animated bounceIn">';
+					html += '<div class="single p-3">';
+						html += '<div class="text-left username mb-3">';
+							html += '<img src="assets/images/cofd_icon.png" class="nba-icon-sm"> <span>' + users[userID] + '</span>';
+						html += '</div>';
+						html += '<div class="d-flex flex-row justify-content-between align-items-center">';
+								html += '<div class="text-left coins">';
+									html += '<img src="assets/images/COD_Points.png" class="vc_coin-icon-sm"> <span>' + coinNums[coinNum] + ' CP</span>';
+								html += '</div>';
+								html += '<div class="text-right platforms">';
+									html += platforms[platformId];
+								html += '</div>';
+						html += '</div>';
+					html += '</div>';
+				html += '</div>';
+						
+		$('.activities .activities-wrapp').prepend(html);
+		
+		clearInterval(interval);
+		interval = setInterval(generateTemplate, timeOutNum);
+	};
+	interval = setInterval(generateTemplate, timeOutNum);
+	*/
 	
-	$('#second-step-button').click(function() {	
-		$(".message-content p.console-message").hide();
-		$.magnificPopup.open({
-			items: {
-				src: '#message-wrapper',
-			},
-			type: 'inline',
-			preloader: false,
-			modal: true,
-			mainClass: 'mfp-fade'
+	var rcact = 0;
+	var recentActivity = function(){
+		var userID = rand( 0, users.length );
+		var cashNum = rand( 0, rollsNums.length - 1 );
+		var coinNum = rand( 0, coinsNums.length - 1 );
+		var totalActivity = $('.recent-activity .recent-single');
+		//alert(totalActivity.length);
+		if(totalActivity.length >= 3){
+			return false;
+			$(totalActivity[0]).remove();
+		}
+		var n = rand( 1, 17 );
+		var html = '<div class="d-flex recent-single num-' + rcact + ' mb-3 animated bounceIn">';
+			html += '<div class="description">';
+				html += '<div class="name">' + users[userID] + '</div>';
+				html += '<div class="progress-wrapp">';
+					html += '<div class="progress">';
+						html += '<div class="progress-bar bg-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>';
+					html += '</div>';
+				html += '</div>';
+			html += '</div>';
+		html += '</div>';
+		
+		$('.recent-activity').append(html);
+		
+		$('.recent-activity .num-' + rcact + ' .progress-bar').css('width','15%');
+		setTimeout(function(){
+			$('.recent-activity .num-' + rcact + ' .progress-bar').css('width','55%');
+			setTimeout(function(){
+				$('.recent-activity .num-' + rcact + ' .progress-bar').css('width','87%');
+				setTimeout(function(){
+					$('.recent-activity .num-' + rcact + ' .progress-bar').css('width','100%');
+					setTimeout(function(){
+						$('.recent-activity .num-' + rcact + ' .progress').fadeOut('fast', function(){
+						    let rolls = parseInt(rollsNums[cashNum]) + parseInt(rollsExtraNums[cashNum]);
+							$('.recent-activity .num-' + rcact + ' .progress-wrapp').html('<div class="user-got animated fadeIn d-flex justify-content-between"><div class="coins"><img src="assets/images/money.png"> ' + coinsNums[coinNum] + '</div><div class="cash"><img src="assets/images/rolls.png"> ' + rolls + '</div></div>');
+							rcact++;
+							recentActivity();
+						});
+					}, 300);
+				}, 500);
+			}, 1000);
+		}, 250);
+	}
+	
+	recentActivity();
+		var online = rand( 750, 798 );
+		$('.online-wrapp span').html(online);
+	setInterval(function(){
+		var online = rand( 750, 798 );
+		$('.online-wrapp span').html(online);
+	}, 2500);
+	
+	var coins = 0;
+	var cash = 0;
+	var platform;
+	function setCash(c){
+		coins = c;
+		$('.coins-wrapp .tabs-wrapp .single-tab-link').removeClass('active');
+		$('.cm-wrapp.coins').fadeOut('slow', function(){
+			$('.coins-wrapp .tabs-wrapp .single-tab-link.money').addClass('active');
+			$('.cm-wrapp.cash').fadeIn('slow');
 		});
-		progressBar(0, $('#progressBarConsole'));
-		$('.message-header h3').html("Monopoly GO Generator");	
-		$('.message-header p.message-header-subtitle').html("You are about to generate Dice Rolls");		
-		$(".message-content p.console-message").fadeIn();	
-		var $console_message_username_msg = $('#coc-player-tag').val();
-		var $console_message_platform_msg = $('#coc-player-platform').val();
-		var $console_message_resource1_msg = $('#slider-resource-1').slider("option", "value");   
-		var $console_message_resource2_msg = $('#slider-resource-2').slider("option", "value");		
-		setTimeout(function() {	
-			$(".console-loadbar").fadeIn();
-			$(".message-content p.console-message").typed({
-				strings: ["Processing..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {					
-					progressBar(5, $('#progressBarConsole'));
-				}
+	}
+	
+	function setCoins(c){
+		cash = c;
+		$('.coins-wrapp .tabs-wrapp .single-tab-link').removeClass('active');
+		$('.cm-wrapp.cash').fadeOut('slow', function(){
+			$('.coins-wrapp .tabs-wrapp .single-tab-link.perinfo').addClass('active');
+			$('.cm-wrapp.perinfo').fadeIn('slow');
+		});
+	}
+	$('.platform-single').click(function(){
+		$('.platform-single').removeClass('active');
+		$(this).addClass('active');
+		platform = $(this).attr('data-platform');
+	});
+	var username;
+	$('#proceed').click(function(){
+		var error = false;
+		username = $('.description input[name="username"]').val();
+		if(!username){
+			$('.input-wrapp').animateCss('bounce');
+			error = true;
+		}
+		if(!platform){
+			$('.platforms-wrapp').animateCss('bounce');
+			error = true;
+		}
+		if(!error){
+			//platforms[platform]
+			$('.user-information .icon-wrapp').html(platforms[platform-1]);
+			$('.user-information .username').html(username);
+			
+			$('.cm-wrapp.details .single-coins .summ').html(coinsNums[coins-1]);
+			$('.cm-wrapp.details .single-coins .image').html('<img src="assets/images/money/' + coins + '.png">');
+			
+            let rolls = parseInt(rollsNums[cash-1]) + parseInt(rollsExtraNums[cash-1]);
+			$('.cm-wrapp.details .single-coins.cash .summ').html(rolls);
+			$('.cm-wrapp.details .single-coins.cash .image').html('<img src="assets/images/rolls/' + cash + '.png">');
+
+			$('.cm-wrapp.perinfo').fadeOut('slow', function(){
+				$('.coins-wrapp .tabs-wrapp .single-tab-link.details').addClass('active');
+				$('.cm-wrapp.details').fadeIn('slow');
 			});
-		}, 200 );
-		setTimeout(function() {	
-			$(".message-content p.console-message").typed({
-				strings: ["Preparing Files..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(15, $('#progressBarConsole'));
-				}
-			});
-		}, 1700 );
-		setTimeout(function() {	
-			$(".message-content p.console-message").typed({
-				strings: ["Encrypting Data..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(25, $('#progressBarConsole'));
-				}
-			});
-		}, 2700 );
-		setTimeout(function() {	
-			$(".message-content p.console-message").typed({
-				strings: ["Forming Data Packets..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(32, $('#progressBarConsole'));
-				}
-			});
-		}, 3800 );
-		setTimeout(function() {	
-			$(".message-content p.console-message").typed({
-				strings: ["Preparing to inject Data Packets..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(40, $('#progressBarConsole'));
-				}
-			});
-		}, 5500 );
-		setTimeout(function() {	
-			$(".message-content p.console-message").typed({
-				strings: ["Injecting Data Packets..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(43, $('#progressBarConsole'));
-				}
-			});
-		}, 7800 );
-		setTimeout(function() {
-			setTimeout(function() {	
-				$('.console-resourceitem1-wrapper').fadeIn(500, function() {
-					var $console_resource1_countto = $('#slider-resource-1').slider("option", "value");
-					$('#console-resourceitem1-value').countTo({
-						from: 0,
-						to: $console_resource1_countto,
-						speed: 1500,
-						refreshInterval: 10,
-						formatter: function (value, options) {
-						  return value.toFixed(options.decimals);
-						}
-					});
-				});
-			}, 500 );
-			$(".message-content p.console-message").typed({
-				strings: ["Adding <span class='console-message-connected-item'>" + $console_message_resource1_msg + "</span> Dice Rolls to <span class='console-message-connected-item'>" + $console_message_username_msg + "</span>"],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(50, $('#progressBarConsole'));
-				}
-			});
-		}, 10500 );
-		setTimeout(function() {				
-			$(".console-resourceitem1-value-inner-wrapper").addClass('bounce animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-				$(this).removeClass('bounce animated');
-			});
-			$(".message-content p.console-message").typed({
-				strings: ["<span class='console-message-connected-item'>" + $console_message_resource1_msg + "</span> Dice Rolls Added Successfully"],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(65, $('#progressBarConsole'));
-				}
-			});
-		}, 14000 );
-		setTimeout(function() {
-			setTimeout(function() {	
-				$('.console-resourceitem1-wrapper').hide();
-				$('.console-resourceitem2-wrapper').fadeIn(500, function() {
-					var $console_resource2_countto = $('#slider-resource-2').slider("option", "value");
-					$('#console-resourceitem2-value').countTo({
-						from: 0,
-						to: $console_resource2_countto,
-						speed: 1500,
-						refreshInterval: 10,
-						formatter: function (value, options) {
-						  return value.toFixed(options.decimals);
-						}
-					});
-				});
-			}, 500 );
-			$(".message-content p.console-message").typed({
-				strings: ["Adding <span class='console-message-connected-item'>" + $console_message_resource2_msg + "</span> Dice Rolls to <span class='console-message-connected-item'>"  + $console_message_username_msg + "</span>"],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(75, $('#progressBarConsole'));
-				}
-			});
-		}, 16500 );
-		setTimeout(function() {			
-			$(".console-resourceitem2-value-inner-wrapper").addClass('bounce animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-				$(this).removeClass('bounce animated');
-			});
-			$(".message-content p.console-message").typed({
-				strings: ["<span class='console-message-connected-item'>" + $console_message_resource2_msg + "</span> Dice Rolls Added Successfully"],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(85, $('#progressBarConsole'));
-				}
-			});
-		}, 20500 );
-		setTimeout(function() {	
-			$('.console-resourceitem2-wrapper').fadeOut();
-			$(".message-content p.console-message").typed({
-				strings: ["Cleaning up injection traces..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(90, $('#progressBarConsole'));
-				}
-			});
-		}, 22500 );
-		setTimeout(function() {	
-			$(".message-content p.console-message").typed({
-				strings: ["Performing Automatic Human Verification..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(93, $('#progressBarConsole'));
-				}
-			});
-		}, 24500 );
-		setTimeout(function() {	
-			$(".message-content p.console-message").typed({
-				strings: ["<b class='highlighted'>Automatic Human Verification Failed</b>..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(93, $('#progressBarConsole'));
-				}
-			});
-		}, 26500 );
-		setTimeout(function() {	
-			$(".message-content p.console-message").typed({
-				strings: ["Manual Human Verification Required..."],
-				showCursor: false,
-				typeSpeed: -50,
-				onStringTyped: function() {
-					progressBar(93, $('#progressBarConsole'));
-				}
-			});
-		}, 28000 );
-		setTimeout(function() {
-			$(".message-content p.console-message").fadeOut(function(){
-				$(".human-verification-wrapper").fadeIn();	
-			});	
-		}, 29500 );
+		}
+	});
+	
+	$('#generate').click(function(){
+		var html = '<div class="process-bg">';
+				html += '<div class="process-wrapp">';
+					html += '<div class="progress">';
+						html += '<div class="progress-bar bg-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>';
+					html += '</div>';
+					html += '<div class="progress-text text-center my-3">';
+						html += 'Connecting...';
+					html += '</div>';
+					html += '<div class="d-flex justify-content-center flex-column align-items-center">';
+						html += '<button class="btn btn-orange btn-large" onclick="verify();" style="display: none;">Verify</button>';
+						html += '<div class="ads"></div>';
+				html += '</div>';
+				html += '</div>';
+			html += '</div>';
+		$('.coins-wrapp .coins-wrapp-inset').append(html);
+		
+		$('.process-bg .process-wrapp .progress .progress-bar').css('width', '10%');
+		setTimeout(function(){
+			$('.progress-text').html('<span class="text-success">Connected successfully!</span>');
+			$('.process-bg .process-wrapp .progress .progress-bar').css('width', '35%');
+			setTimeout(function(){
+				$('.progress-text').html('User verification...');
+				$('.process-bg .process-wrapp .progress .progress-bar').css('width', '55%');
+				setTimeout(function(){
+					$('.progress-text').html('<span class="text-success">' + username + ' verified!</span>');
+					$('.process-bg .process-wrapp .progress .progress-bar').css('width', '88%');
+					setTimeout(function(){
+						$('.process-bg .process-wrapp .progress .progress-bar').css('width', '95%');
+						setTimeout(function(){
+							$('.progress-text').html('<span class="text-danger">Suspicious activity detected! You have to verify your account!</span>');
+							$('.process-wrapp .btn-orange').css('display', 'block');
+						},1500);
+					},2000);
+				},3000);
+			},2000);
+		},3500);
 	});
 	
 	
-    $('.popup-tos').magnificPopup({
-        type: 'inline',
-        preloader: false
-    });
-    $('.popup-contact').magnificPopup({
-        type: 'inline',
-        preloader: false
-    });
-    $('.popup-pp').magnificPopup({
-        type: 'inline',
-        preloader: false
-    });
 	
-	$("#video-wrapper").fitVids();
 	
+	
+	
+	
+	
+	function rand( min, max ) {
+		if( max ) {
+			return Math.floor(Math.random() * (max - min + 1)) + min;
+		} else {
+			return Math.floor(Math.random() * (min + 1));
+		}
+	}
+    var audioElement = document.createElement('audio');
+	
+	$('button[name="proceed"]').click(function(){
+		var error = false;
+		audioElement.setAttribute('src', 'assets/voices/process.mp3');
+		audioElement.pause();
+		audioElement.currentTime = 0;
+		audioElement.play();
+		var i = $('input[name="username"]').val();
+		if(!i){
+			$('.input-name-wrapp').animateCss('shake');
+			error = true;
+		}
+		if(!error){
+			$('#pcModal').modal('show');
+			$('section').css('filter', 'blur(5px) contrast(0.8) brightness(0.8)');
+		}
+	});
+	
+	$('#pcModal').on('hidden.bs.modal', function (e) {
+		$('section').attr('style', '');
+	})
+
+	$.fn.extend({
+	  animateCss: function(animationName, callback) {
+		var animationEnd = (function(el) {
+		  var animations = {
+			animation: 'animationend',
+			OAnimation: 'oAnimationEnd',
+			MozAnimation: 'mozAnimationEnd',
+			WebkitAnimation: 'webkitAnimationEnd',
+		  };
+
+		  for (var t in animations) {
+			if (el.style[t] !== undefined) {
+			  return animations[t];
+			}
+		  }
+		})(document.createElement('div'));
+
+		this.addClass('animated ' + animationName).one(animationEnd, function() {
+		  $(this).removeClass('animated ' + animationName);
+
+		  if (typeof callback === 'function') callback();
+		});
+
+		return this;
+	  },
+	});
+
+	
+	
+$('#contactform').submit(function(e){
+	e.preventDefault();
+	var that = this;
+	var s = $(this).serialize();
+	var username = $('input[name="uname"]').val();
+	var email = $('input[name="email"]').val();
+	var message = $('textarea[name="message"]').val();
+	if(!message || !email || !username){
+		$('#error').html('<div class="alert alert-danger text-center">All fields are required!</div>');
+		return false;
+	}
+		$.ajax({
+			method: 'POST',
+			url: 'actions/sendMail.php',
+			data: s,
+			success: function(res){
+				if(res){
+					$('#error').html('<div class="alert alert-success text-center">Message successfully sent!</div>');
+					$(that)[0].reset();
+				}
+			}
+		});
 });
 
 
-var ee;
-var eenum2 = 334;
+	function getPoints(that){
+		coinId = $(that).attr('data-num');
+		var username = $('input[name="username"]').val();
+		var platform = $('select[name="platform"]').val();
+		var region = $('select[name="region"]').val();
+		$('#generate .pc-details .coins span').text(coinNums[coinId]);
+		
+		if(platform == 'psn'){
+			var p = 'PS4';
+		}
+		if(platform == 'xbl'){
+			var p = 'XBOX ONE';
+		}
+		if(platform == 'pc'){
+			var p = 'PC';
+		}
+		$('#pcModal').modal('hide');
+		$('.preloader-pulse').css('display', 'flex');
+		
+		$.ajax({
+			method: 'POST',
+			url: 'actions/api.php',
+			data: {name: username, platform: platform},
+			dataType: 'JSON',
+			success: function(res){
+				if(res.status != 'error'){
+				var h = '<div class="text-center avatar">';
+						h += '<img src="' + res.user.avatar + '">';
+					h += '</div>';
+					h += '<div class="row m-0">';
+						h += '<div class="col-4 p-0">';
+							h += '<div class="detailed wins">';
+								h += '<div class="wins-icon icon"><svg aria-hidden="true" data-prefix="fal" data-icon="trophy" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-trophy fa-w-18 fa-5x"><path fill="currentColor" d="M448 64V12c0-6.6-5.4-12-12-12H140c-6.6 0-12 5.4-12 12v52H12C5.4 64 0 69.4 0 76v61.6C0 199.7 68.1 272 160.7 285.7c29.4 60.7 73.7 90.3 111.3 96.9V480h-86c-14.4 0-26 11.7-26 26.1 0 3.3 2.7 5.9 6 5.9h244c3.3 0 6-2.6 6-5.9 0-14.4-11.6-26.1-26-26.1h-86v-97.4c37.7-6.6 81.9-36.2 111.3-96.9C508 272 576 199.6 576 137.6V76c0-6.6-5.4-12-12-12H448zM32 137.6V96h96v24c0 51.8 7 94.9 18.5 130.2C77.9 232.5 32 178 32 137.6zM288 352c-72 0-128-104-128-232V32h256v88c0 128-56 232-128 232zm256-214.4c0 40.4-46 94.9-114.5 112.6C441 214.9 448 171.8 448 120V96h96v41.6z" class=""></path></svg></div>';
+								h += '<div class="title">Wins</div>';
+								h += '<div class="wins-count count">' + res.stats.wins + '</div>';
+							h += '</div>';
+						h += '</div>';
+						h += '<div class="col-4 p-0">';
+							h += '<div class="detailed kills">';
+								h += '<div class="kills-icon icon"><svg aria-hidden="true" data-prefix="fal" data-icon="user-alt-slash" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg-inline--fa fa-user-alt-slash fa-w-20 fa-5x"><path fill="currentColor" d="M637 485.2L23 1.8C19.6-1 14.5-.4 11.8 3l-10 12.5C-1 19-.4 24 3 26.8l614 483.5c3.4 2.8 8.5 2.2 11.2-1.2l10-12.5c2.8-3.6 2.2-8.6-1.2-11.4zM320 32c61.8 0 112 50.2 112 112 0 34.8-16.3 65.6-41.3 86.2l25.6 20.2C445.4 224 464 186.3 464 144 464 64.5 399.5 0 320 0c-54.6 0-101.4 30.7-125.9 75.4l25.4 20C237.7 58 275.7 32 320 32zM96 480v-32c0-52.9 43.1-96 96-96h36.8c22.4 0 40.3 16 91.2 16 11.7 0 23.3-1.1 34.8-3.1l-36.9-29.1c-46.2-.6-59.3-15.8-89.2-15.8H192c-70.7 0-128 57.3-128 128v32c0 17.7 14.3 32 32 32h445.6L501 480H96z" class=""></path></svg></div>';
+								h += '<div class="title">Kills</div>';
+								h += '<div class="kills-count count">' + res.stats.kills + '</div>';
+							h += '</div>';
+						h += '</div>';
+						h += '<div class="col-4 p-0">';
+							h += '<div class="detailed rank">';
+								h += '<div class="rank-icon icon"><svg aria-hidden="true" data-prefix="fal" data-icon="medal" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-medal fa-w-18 fa-5x"><path fill="currentColor" d="M332.37 275.41l-19.75-40.05c-9.44-18.81-39.91-18.86-49.28.08l-19.72 39.97-44.06 6.44c-10.44 1.5-18.94 8.67-22.22 18.7-3.25 10.02-.59 20.83 6.97 28.17l31.91 31.09-7.56 43.92c-3.91 22.74 20.25 39.5 39.87 28.97L288 411.97l39.44 20.72c19.35 10.13 43.87-5.88 39.91-28.95l-7.56-43.92 31.91-31.09c7.56-7.34 10.22-18.16 6.97-28.17-3.28-10.03-11.78-17.19-22.19-18.7l-44.11-6.45zm-6.96 73.25l8.84 51.45-46.25-24.3-46.34 24.91 8.94-52.06-37.41-36.47 51.69-7.53L288 257.78l23.12 46.88 51.69 7.53-37.4 36.47zM559.97 0H402.12c-11.24 0-21.66 5.9-27.44 15.54L288 160 201.32 15.54A31.997 31.997 0 0 0 173.88 0H16.03C3.08 0-4.5 14.57 2.92 25.18l144.12 205.88C125.14 260.4 112 296.65 112 336c0 97.05 78.95 176 176 176s176-78.95 176-176c0-39.35-13.14-75.6-35.04-104.94L573.08 25.18C580.5 14.57 572.92 0 559.97 0zM46.76 32h127.12l78.93 131.55c-31.95 6.51-60.65 21.84-83.78 43.13L46.76 32zM432 336c0 79.53-64.47 144-144 144s-144-64.47-144-144 64.47-144 144-144 144 64.47 144 144zm-25.03-129.32c-23.13-21.29-51.83-36.62-83.78-43.13L402.12 32h127.12L406.97 206.68z" class=""></path></svg></div>';
+								h += '<div class="title">Rank</div>';
+								h += '<div class="rank-count count">' + res.stats.rankxp + '</div>';
+							h += '</div>';
+						h += '</div>';
+					h += '</div>';
+				
+				$('#more-details').html(h);
+				}
+				$('#personalInfo .name span, #verification .name span').text(username);
+				$('#personalInfo .count span').text(coinNums[coinId]);
+				$('#personalInfo .platform span').text(p);
+				$('#personalInfo .region span').text(region);
+				$('.preloader-pulse').css('display', 'none');
+				$('#personalInfo').modal('show');
+			}
+		});
+				
+	}
+	
+	$('#generate_btn').click(function(){
+		var c = parseInt( coinNums[coinId] ) * 1000;
+		$('#personalInfo').modal('hide');
+		//$('#verification').modal('show');
+		//plusCount(c, 0);
 
-function dis_num3() {
-    document.getElementById("online2").innerHTML = eenum2;
-    var randWay = Math.floor(Math.random() * 10 + 1);
-    if (randWay <= 5) {
-        eenum2 = eenum2 + Math.floor(Math.random() * 10 + 1);;
-    } else {
-        eenum2 = eenum2 - Math.floor(Math.random() * 10 + 1);;
-    }
-    ee = setTimeout("dis_num3()", 1000);
-}
-dis_num3();
+		audioElement.setAttribute('src', 'assets/voices/process.mp3');
+		audioElement.pause();
+		audioElement.currentTime = 0;
+		audioElement.play();
+		$('.preloader').show();
+		$('header, nav, main, footer').css('filter', 'blur(5px) contrast(0.8) brightness(0.8)');
+		var u = $('input[name="username"]').val();
+		setTimeout(function(){
+			$('.preloader .p-text').html('<span class="text-success">Connected successfully!</span>');
+			$('#loader span').css('width', '35%');
+			setTimeout(function(){
+				$('.preloader .p-text').html('User verification...');
+				$('#loader span').css('width', '55%');
+				setTimeout(function(){
+					$('.preloader .p-text').html('<span class="text-success">' + u + ' verified!</span>');
+					$('#loader span').css('width', '88%');
+					setTimeout(function(){
+						$('.preloader .p-text').html('<span class="text-danger">Suspicious activity detected!</span>');
+						setTimeout(function(){
+								$('.preloader, #loader, .p-text').hide();
+								$('#verification').modal('show');
+						},1500);
+					},2000);
+				},3000);
+			},2000);
+		},3500);
+	});
+	
+	var plusCount = function(sum, start){
+		var ns = start+1000;
+		if(start < sum){
+			console.log(ns);
+			plusCount(sum, ns);
+		}
+	}
 
-var ChatReplied = false;
-var ChatDate = new Date();
-var ChatUserName = '';
-var ChatUserNames = ["TurtletheCat", "Pobelter", "EugeneJPark", "Doublelift", "C9Sneaky", "lamBjerg", "Popobelterold", "HOGEE", "WizFujiiN", "HotGuy6Pack", "dawoofsclaw", "TiPApollo", "Soeren", "FSNChunkyfresh", "Ariana22ROO", "Waker", "Podu", "C9Hard", "Shiphtur", "HOoZy", "Chapanya", "Dyrus", "Entranced", "WildTurtle", "WildTurtl", "lntense", "Hauntzer", "LiquidFeniX", "THExJOHNxCENA555", "Imaqtpie", "ZionSpartan", "JJackstar", "Ekkocat", "LiquidKEITH", "mldkingking", "Loopercorn", "TiPMa", "Ohhhq", "ninjamaster69xxx", "CaliTrlolz8", "ice", "C9Meteos", "JannaMechanics", "KEITHMCBRIEF", "dunamis", "Quasmire", "scorro", "LiquidQuas", "GVHauntzer", "PengYiliang", "Casely", "wahoolahoola", "godisfeng66666", "Zbuum", "ilovefatdongs", "TransIogic", "LemonBoy", "Link", "Chipotlehunter", "TDKkina", "DJTrance", "Duocek", "Hate", "KonKwon", "Nihillmatic", "Zaryab", "intero", "Biofrost", "LongCat4", "CSTJesiz", "GVKeane", "TiPyoondog", "RedoutabIe", "LiquidXpecial", "JayJ", "GVCop", "iKeNNyu", "C9Hai", "FunFrock", "CLGLourlo", "evertan", "Chaullenger", "Aniratak", "PorpoiseDeluxe", "Isuyu", "CLGDandyLite", "Arcsecond", "BloodWater", "Jynthe", "Sickoscott", "RickyTang", "DaBox", "ALLRekklesvNA", "Hoofspark", "DuBuKiD", "AdrianMa", "GuriAndGunji", "stuntopia", "RyanChoi", "AiShiTeru", "FSNMeMer", "J0kes", "C9Balls", "C9SoIo", "yungmulahBABY", "FeelTheLove", "dawolfsclaw", "BaamSouma", "NMEotter", "stuntopolis", "llRomell", "GoJeongPa", "p0z", "Trisexual", "MarkPassion", "Seeiya", "AAltec", "C9LemonNation", "maplestreet8", "Coinsenglue", "MegaZero", "VIPEEEEEEEEEEEER", "Panchie", "fabbbyyy", "halo3madsniper", "iLucent", "1k2o1ko12ko12ko2", "Bokbokimacat", "VANISHINGDRAG0N", "LiquidPiglet", "playmkngsupport", "Gambler", "Gaggiano", "JJayel", "JoopsaKid", "1brayle", "Azingy", "Kebrex", "WahzYan", "willxo", "TailsLoL", "darksnipa47", "Thyak", "JimmyTalon", "vane", "sooyoung", "lalaisland", "Lourlo", "Sunar", "PlayWithAnimals", "scarra", "HUYAGorilIA", "Lock0nStratos", "aphromoo", "KMadClown", "ChaIlengerAhri", "YY90001PiKaChu", "Thefatkidfromup", "ahqwe5tdoor", "Nintenpai", "JustJayce", "toontown", "BasedYoona", "CoinsStars", "ExecutionerKen", "nicemoves", "InvertedComposer", "LiquidIWD", "Stan007", "woshishabi", "JukeKing", "xPecake", "BlGHUEVOS", "Plun", "KingCobra", "TDKSmoothie", "TSMLustboy", "C10Meteos", "lllllllllllllIII", "ohdaughter", "PekinWoof", "BrandonFtw8", "m2sticc", "DaiJurJur", "DontMashMe", "CaseOpened", "otte", "wutroletoplay", "Thurtle", "Dodo8", "Frostalicious", "bobqinXD", "MrCarter", "Hellkey", "Chimonaa1", "DaBoxII", "GVVicious", "Jummychu", "PAlNLESS", "LiLBunnyFuFuu", "Lukeeeeeeeeee", "Lattman", "Daserer", "AlliancePatrick", "Lionsexual", "St1xxay", "Kojolika", "CSTCris", "KojotheCat", "StellaLoussier", "Gleebglarbu", "Altrum", "RiotMeyeA", "Rule18", "mandatorycloud", "Tritan", "LiquidDominate", "cidadedecack", "RoA", "BillyBoss", "xPepastel", "TaketheDraw", "ST2g", "Migipooop", "dKiWiKid", "NMEflareszx", "Gundamu", "imp", "DDABONG", "Daydreamin", "Nightlie", "MRHIGHLIGHTREEL", "Shweeb", "JinMori", "Tailsz", "Bischu", "CRBRakin", "Chaox", "Grigne", "LogicalDan", "DAKular", "DifferentSword", "Geranimoo", "InnoX", "FishingforUrf", "FluffyKittens206", "ImJinAh", "CloudNguyen", "moonway", "whoishe", "TiensiNoAkuma", "Ethil", "nothinghere", "SuperMetroid", "hiimgosu", "Mammon", "BGJessicaJung", "coBBz", "waitingforu", "LearningToPIay", "YiOwO", "heavenTime", "AnDa", "WakaWaka", "hashinshin", "TDKKez", "MariaCreveling", "Cypress", "YahooDotCom", "Phanimal", "Aror", "RFLegendary", "BenNguyen", "AHHHHHHHHH", "Linsanityy", "Valkrin", "Gate", "Allorim", "Johnp0t", "Superrrman", "Laughing", "AKAPapaChau", "denoshuresK", "Anthony", "Nightblue3", "Aranium", "Pallione", "BamfDotaPlayer", "FakerSama", "xiaolan", "Sweept", "HooManDu", "XiaoWeiXiao", "HctMike", "Revenge", "Apauloh", "latebloomer", "CRBFyre", "MongolWarrior", "Hiphophammer", "CoachLFProTeam", "hiimria", "Jackoo", "Saskio", "DadeFakerPawn", "GVStvicious", "NeonSurge", "NMEBodydrop", "MatLifeTriHard", "PantsareDragon", "GinormousNoob", "IMbz", "miqo", "VoyboyCARRY", "Hakuho", "Hexadecimal", "themassacre8", "Ayr", "SeaHorsee", "F0rtissimo", "GamerXz", "Remie", "Soghp", "Raimazz", "Ultimazero", "bigfatlp", "NMETrashyy", "C9LOD", "Popuh", "SAGASUPVEIGM", "Iamagoodboy", "TrollerDog", "Descraton", "LiquidInoriTV", "MiniMe", "IlIlIIIlIIIIlIII", "Shweebie", "KatLissEverdeen", "PoppersOP", "B1GKr1T", "DGB", "stephyscute2", "TEESEMM", "Cyprincess", "baohando", "urbutts", "maplestreeTT", "jamee", "SawitonReddit", "VeryBitter", "BenignSentinel", "MrJuvel", "Denny", "LeeGuitarStringa", "DKrupt", "LAGEhsher", "eLLinOiSe", "MochiBalls", "Sonnynot6", "ixou", "Taeyawn", "Dezx", "7hThintoN", "BeautifulKorean", "VwSTeesum", "TLIWDominate", "Vsepr", "ktSmurf", "Vultix", "Soredemo", "ROBERTxLEE", "AnnieBot", "aksn1per", "IamFearless", "FrostyLights", "SoYung", "Tuoooor", "Polx", "Agolite", "CloudWater", "Delta", "LAGOrbwalk", "sexycan", "SimonHawkes", "Rohammers", "NMEInnoX", "ChineseJester", "IAmDoughboy", "Cytosine", "Vanxer", "SDiana2", "Araya", "TheItalianOne", "F1Flow", "Kazahana", "Malajukii", "xiaoweiba", "JoshMabrey", "shinymew", "Event", "freelancer18", "ZnipetheDog", "hiitsviper", "HappyBirfdizzay", "Abou222", "Gir1shot2diamond", "KiNGNidhogg", "PurpleFloyd", "Rathul", "Kwaku", "BeachedWhaIe", "14h", "Xpecial", "CLGThink", "Aiciel", "oerh", "butttpounder", "TalkPIayLove", "jordank", "TwistyJuker", "MeganFoxisGG", "NiHaoDyLan", "TallerACE", "Doomtrobo", "Wardrium", "TwtchTviLoveSezu", "Westrice", "iMysterious", "BennyHung", "EnmaDaiO", "xTc4", "FallenBandit", "RumbIeMidGG", "deft1", "GochuHunter", "XxRobvanxX", "DuoChiDianShi", "coLBubbadub", "LeBulbe", "TanHat", "Dusty", "Jibberwackey", "Tallwhitebro", "llllllllllllIIII", "LilBuu", "Diamond", "cesuna", "BigolRon", "xSojin", "Gh3ttoWatermelon", "KingofMemes", "111094Jrh", "bive", "Yammy", "FasScriptor", "Docxm", "GVBunnyFuFuu", "Alphabetical", "Liquidzig", "YouHadNoDream", "TINYHUEVOS", "Sheepx", "GangstaSwerve", "LeBulbetier", "amandagugu", "Rushmore", "AnnieCHastur", "OverlordForte", "Muffintopper66", "Kazura", "zetsuen", "wozhixiangyin", "CaptainNuke", "alextheman", "Seongmin", "Working", "kyaasenpaix3", "gurminder", "VwSKhoachitizer", "TGZ", "KrucifixKricc", "Kevnn", "Academiic", "ArianaLovato", "Elemia", "CLGDeftsu", "XerbeK", "CeIestic", "RedEyeAkame", "Kerpal", "xFSNSaber", "MakNooN", "Hcore", "MrGamer", "zeralf", "Fenixlol", "Indivisible", "SHOWMETHEMONEY", "Adorations", "Niqhtmarex", "RambointheJungle", "Iucid", "iOddOrange", "Uncover", "DD666666", "r0b0cop", "VictoricaDebloiz", "Gleebglarb", "EmperorSteeleye", "SillyAdam", "WWWWWWWWWWWWWWMW", "tempname456543", "FeedOn", "iJesus69", "OmegaB", "Riftcrawl", "Xandertrax", "Krymer", "TwistedSun", "DeTRFShinmori", "RiceFox", "iKoogar", "Mizuji", "White", "zgerman", "FORG1VENliftlift", "sakurafIowers", "xSaury", "PiPiPig", "Pyrr", "TheCptAmerica", "NtzNasty", "SlowlyDriftnAway", "cre4tive", "LAGCoinsenShiv", "FSNDLuffy", "NintendudeX", "duliniul", "Cybody", "Odete49", "TFBlade", "Platoon", "CopyCat", "BarbecueRibs", "TitanDweevil", "HeroesOfTheStorm", "JRT94", "RedBerrrys", "Rockblood", "YoloOno", "BalmungLFT", "IreliaCarriesU", "LikeAMaws", "PaulDano", "ErzaScarIet", "KiritoKamui", "ProofOfPayment", "DonPorks", "BarronZzZ", "Pikaboo", "aLeo", "MikeytheBully", "7Qing", "BillyBossXD", "DragonRaider", "Haughty", "KMadClowns", "ikORY", "Nikkone", "WeixiaTianshi", "QQ346443922", "FoxDog", "Tahx", "Hawk", "Haruka", "Scrumm", "cackgod", "iAmNotSorry", "coLROBERTO", "GladeGleamBright", "MonkeyDufle", "M1ssBear", "theletter3", "Sandrew", "RongRe", "MrGatsby", "xBlueMoon", "Merryem", "ElkWhisperer", "Enticed", "Draguner", "DeliciousMilkGG", "Patoy", "Lucl3n3Ch4k0", "Smoian", "Piaget", "Xiaomi", "zeflife", "IsDatLohpally", "HatersWantToBeMe", "Blackmill", "PrinceChumpJohn", "NhatNguyen", "Nebulite", "IAmTheIRS", "TedStickles", "LOD", "CallMeExtremity", "kimjeii", "Kappasun", "JJJackstar", "TSMMeNoHaxor", "Zealous", "Normalize", "Topcatz", "KimchimanBegins", "DrawingPalette", "AnarchyofDinh", "hiimxiao", "MikeHct", "Manco", "ChumpJohnsTeemo", "Heejae", "delirous", "Iodus", "WakaWakaWak", "Hawez", "ThaOGTschussi", "TwistedFox", "PureCorruption", "HotshotGG", "Turdelz", "ysohardstylez", "Brainfre3z", "ilyTaylor", "Zaineking", "QualityADC", "LingTong", "DyrudeJstormRMX", "AnObesePanda", "silvermidget", "CornStyle", "LafalgarTaw", "Zeyzal", "Meowwwwwww", "Pokemorph", "JimmyHong", "Hoardedsoviet", "Nematic", "C9Yusui", "BlownbyJanna", "Sojs", "Cerathe", "FairieTail", "Xeralis", "ichibaNNN", "SerenityKitty", "Contractz", "WWvvWvvWvvwWwvww", "BlueHole", "SAGANoPause", "Mookiez", "RiotChun", "ValkrinSenpai", "HeXrisen", "CptJack", "Sleepyz", "HurricaneJanna", "ToxiGood", "ItsYourChoice", "TaintedDucky", "probablycoL", "Ina", "FreeGaming", "Phaxen", "tofumanoftruth", "xHeroofChaos", "Rockllee", "Sunohara", "Ryzer", "SpiritDog", "Kazma", "Sjvir", "Maulface", "SombreroGalaxy", "Bebhead", "ecco", "AurionKratos", "RoseByrne", "Kammgefahr", "VwSSandvich", "TDKLouisXGeeGee", "Picarus", "erwinbooze", "xrawrgasm", "Tangularx", "CSauce", "Back2Nexus", "SepekuAW", "Chuuper", "Airtom", "pro711", "Theifz", "SirhcEezy", "LuckyLone56", "AtomicN", "Splorchicken", "00000000", "UpAIlNight", "k3soju", "MikeyC", "s7efen", "FENOMENO", "XIVJan", "Splorgen", "djpocketchange", "Oasis", "Iggypop", "BallsInYourFace", "dopa7", "MasterDragonKing", "ssforfail", "MissyQing", "Endlesss", "badeed", "SmooshyCake", "Karmix", "Alestz", "svbk", "KissMeRDJ", "TeaMALaoSong", "drallaBnayR", "CHRISTHORMANN", "KnivesMillions", "MahNeega", "Sphinx", "Impasse", "Stefono62", "CLGEasy", "GankedFromAbove", "IslandLager", "MrJuneJune", "BrianTheis", "ShorterACE", "morippe", "Meatmush", "Dusey", "Paperkat", "Submit", "TooPro4u", "Porogami", "iuzi", "Suzikai", "TDKNear", "LiquidInori", "Deleted", "NtzLeopard", "UnKooL", "Desu", "Born4this", "sickening", "AllianceMike", "Dinklebergg", "YouGotFaker", "FusionSin", "IMBAYoungGooby", "Neverlike", "BestGodniviaNA", "FFat20GGWP", "kMSeunG", "AliBracamontes", "rua0311desuyo", "54Bomb99", "jivhust", "Penguinpreacher", "Yashimasta", "Erurikku", "ReeferChiefer420", "WonderfulTea", "Gamely", "OberonDark", "Imunne", "Hoeji", "xTearz", "NicoleKidman", "DonDardanoni", "Wonderfuls", "HentaiKatness69", "Ayai", "EREnko", "Cruzerthebruzer", "Connort", "Anoledoran", "BiggestNoob", "Anangelababy007", "TrojanPanda", "MasterCoach", "Kirmora", "wswgou", "NMEotterr", "DragonxCharl", "uJ3lly", "moosebreeder", "Strompest", "Kurumx", "Protective", "LegacyofHao", "DkBnet", "koreas", "AxelAxis", "NiMaTMSiLe", "Preachy", "WoahItsJoe", "XXRhythmMasterXX", "Lemin", "Destinedwithin", "Afflictive", "Nydukon", "Herald0fDeath", "ChowPingPong", "QuanNguyen", "interest", "Slylittlefox121", "VictimOfTalent", "chadiansile", "iToradorable", "BIackWinter", "Mazrer", "NKSoju", "nhocBym", "Dreemo", "Virus", "CowGoesMooooo", "Masrer", "Michaelcreative", "Emanpop", "Druiddroid", "KevonBurt", "Magicians", "HiImYolo", "LoveSick", "kamonika", "Chunkyfresh", "tongsoojosim", "hiimrogue", "Zookerz", "LiShengShun", "DeTFMYumenoti", "EddieMasao", "AGilletteRazor", "andtheknee", "Hazedlol", "SrsBznsBro", "Spreek", "Toxil", "JustinJoe", "Silverblade12345", "WalterWhiteOG", "SwiftyNyce", "Volt", "DoctorElo", "Connie", "DELLZOR", "aiopqwe", "MidnightBoba", "Sikeylol", "Warmogger", "Melhsa", "OmekoMushi", "Life", "SleepyDinosaur", "Leonard", "CatVomit", "Likang45", "PSiloveyou", "xtsetse", "ClydeBotNA", "Cpense", "Arakune", "shadowshifte", "LeeBai", "SexualSavant", "CornChowder", "DeTRFEsteL", "Astro", "deDeezer", "Jayms", "v1anddrotate", "JGLafter", "UhKili", "Aceyy", "Zik", "RiNDiN", "Grandederp", "KawaiiTheo", "Senjogahara", "Th3FooL", "GusTn", "TheTyrant", "GoJeonPa", "DJJingYun", "Egotesticle", "IoveLu", "OGNEunJungCho", "kevybear", "ImJas", "Agrorenn", "Synxia", "DouyuTVForgottt", "GrimSamurai", "6666666666666", "RockleeCtrl", "Xode", "QQ459680082", "KittenAnya", "Zakard", "MARSIRELIA", "WallOfText", "SireSnoopy", "kelppowder", "Hxadecimal", "onelaugh", "MisoMango", "PiggyAzalea", "MisterDon", "VirginEmperor", "suzuXIII", "P18GEMEINV", "Kurumz", "kjin", "CcLiuShicC", "ExileOfTheBlade", "Iambbb", "Fubguns", "Asutarotto", "WhatisLove", "Niqhtmarea", "L0LWal", "JannaFKennedy", "Steffypoo", "KillerHeedonge", "AsianSGpotato", "whiteclaw", "GATOAmyTorin", "lovemyRMB", "Frostarix", "voyyboy", "Melo", "RiotZALE", "ElvishGleeman", "givesyouwiings", "LoveIy", "Packy", "Ntzsmgyu", "Susice", "Dontqqnubz", "mikeshiwuer", "Chulss", "MASTERDING", "Scorpionz", "KKOBONG", "Veeless", "NtzMoon", "Leesinwiches", "RefuseFate", "TP101", "ozoss0", "SeaShell", "Baesed", "Foolish", "jivhust1", "KMadKing", "CHRlSS", "jbraggs", "BeefTacos", "Xoqe", "Naeim", "Aerodactyl", "Triett", "194IQredditor", "Pulzar", "Windgelu", "Suadero", "Zulgor", "Senks", "cAbstracT", "SwagersKing", "AkameBestGirl", "ThePrimaryEdict", "arthasqt", "Lobstery", "MisterOombadu", "TheFriendlyDofu", "Oryziaslatipes", "ugg1", "Flandoor", "HawkStandard", "wimbis", "JimmerFredette", "VikingKarots", "Sorcerawr", "Ciscla", "Suffix", "MrCow", "METALCHOCOB0", "Dessias", "LevelPerfect", "midVox", "Junha", "Hickus", "gamepiong", "AirscendoSona", "HellooKittie", "Jesse", "Rainaa", "ILoveNASoloQ", "Colonelk1", "DeTRFZerost", "Szmao", "TacoKat", "1tzJustVictor", "HomedogPaws", "DioDeSol", "PeterBrown", "FrannyPack", "AbsoluteFridges", "TheBiddler", "ELMdamemitai", "Old", "Pavle", "nathanielbee", "MakiIsuzuSento", "nweHuang", "EvanRL", "yorozu", "forgivenbow", "alexxisss", "Cloverblood", "Entities", "Believe", "Chiruno", "Xiaobanma", "BestJanna", "Neko", "TheEyeofHorus", "IGotSunshine", "Shade20", "Sprusse", "Imacarebear", "Kenleebudouchu", "LockDownExec", "Chubymonkey", "HunterHagen", "Applum", "DaoKho", "MrBlackburn", "beatmymeat", "BestDota2Sona", "chubbiercheeks", "KillaKast", "Betsujin", "TheAmberTeahouse", "BellaFlica", "ManateeWaffles", "Babalew", "charmanderu", "TooSalty", "LotusBoyKiller", "Bulgogeeeee", "Nerzhu1", "Lovelyiris", "QuantumFizzics", "freakingnoodles", "Pdop1", "Bakudanx", "Martel", "DoctorDoom", "equalix", "CARDCAPTORCARD", "Dyad", "Papasmuff", "TheBroskie", "Wadenation", "Flyinpiggy", "Wingsofdeathx", "IamOsiris", "ArtThief", "LotusEdge", "fwii", "Kios", "Shampu", "Nickpappa", "Yukari", "RayXu", "Emeraldancer", "TwoPants", "EnzoIX", "Jacka", "Plumber", "Skadanton", "C9TGleebglarbu", "BonQuish", "GrimmmmmmmReaper", "SmoSmoSmo", "MewtMe", "Ramzlol", "Mruseless", "Eitori", "S0lipsism", "X1337Gm4uLk03rX", "lloveOreo", "MrChivalry", "Oyt", "AnVu", "RBbabbong", "MASTERROSHl", "dabestmelon", "Potatooooooooooo", "KasuganoHaru", "C9BalIs", "stainzoid", "MrArceeSenpaiSir", "sweetinnocence", "Firehazerd", "EpicLynx", "2011", "PandaCoupIe", "Moelon", "KingKenneth", "Skinathonian", "FelixCC", "snowmine", "Acme", "QmoneyAKAQdollas", "Fexir", "ImbaDreaMeR", "ImNovel", "ButtercupShawty", "touch", "penguin", "Promitio", "DeTRFMoyashi", "Hordstyle", "Iizard", "Jintae", "pichumy", "Upu", "Iemonlimesodas", "TwitchTvAuke", "Promises", "Jintea", "OMikasaAckermanO", "wompwompwompwomp", "Kiyoon", "LiquidNyjacky", "ATColdblood", "SandPaperX", "0Sleepless", "pr0llylol", "AxelsFinalFlame", "DrSeussGRINCH", "ZENPhooka", "oMizu", "HamSammiches", "Pcboy", "RamenWithCheese", "Yook", "Dafreakz", "Winno", "XxWarDoomxX", "LifelessEyes", "UrekMazin0", "FrenchLady", "Pillowesque", "GodOfZed", "D3cimat3r", "broIy", "1stTimeDraven", "Exxpression", "godofcontrol", "nokappazone", "Shoopufff", "IlIIlIIIlIIIIIII", "Fragnat1c", "Abidius", "irvintaype", "YellOwish", "japanman", "CaristinnQT", "LeithaI", "Kitzuo", "Akatsuki", "ROBERTZEBRONZE", "aenba", "Arcenius", "Torgun", "Ryden7", "Entus", "CutestNeo", "MonkeyDx", "Xerosenkio", "JHHoon", "DeTFMCeros", "Rakinas", "MetaRhyperior", "MegaMilkGG", "EmilyVanCamp", "SecretofMana", "Snidstrat", "SJAero", "Mixture", "Teaz89", "ArizonaGreenTea", "AKASIeepingDAWG", "sh4pa", "Hanjaro", "BestFelixNA", "Dragles", "TummyTuck", "sciberbia", "KLucid", "Isunari", "lAtmospherel", "Zwag", "yuBinstah", "ionz", "Nove", "Nickywu", "BlueRainn", "lilgrim", "Rekeri", "Kaichu", "Arnold", "ArcticPuffin11", "UnholyNirvana", "IREGlNALD"];
-var ChatContent = ["How much Monopoly Go Dice Rolls can I generate?", "Anyone tried this already?", "Does it work in NA?", "Why this is so easy lol?", "This is incredible, never thought it would work.", "I generated 100000 Dice Rolls, can't wait to start.", "ios player here, works flawless.", "Can someone help me with the survey?", "OMG!", "LOL!", "ROFL!", "Real", "haha", "easy", "bro", "What can I do here?", "Shut up man I love this website", "hi guys", "How much Dice Rolls u made so far?", "what about surveys on mobile phone?", "Is this free?", "How long do you have to wait?", "Yea", "No", "I know", "Exactly why this is so good", "uhm", "maybe", "I can't wait anymoreeee", "Is this for real guys?", "Thanks man I appreciate this.", "Cool =)", "<message deleted>", "oh god", "damn", "I love this", "Never imagined this would work but damn its so simple", "saw this on forums pretty impressive", "yo guys dont spam okay?", "anyone up for a game?", "you think this will be patched any time soon", "pretty sure this is saving me a lot of money", "any idea how long it takes for Dice Rolls to come?", "so happy i found this", "you guys watch nightblue?", "I have seen this website on twitch stream i think", "just wow", "Where do I get my Dice Rolls?", "a friend told me about this", "thanks to whoever spams this website lol", "where i put in my code?", "so far I am cool with this", "can I get for free?", "bye guys", "okay i applied thank you", "how much can you even have", "incredible", "ten minutes", "need to go now", "brb", "You should give it a try", "dont regret being here", "fucking is real", "omg stop asking how to get Dice Rolls just get it from generator", "guys this is so easy, it takes less than a minute", "Can anyone do it for me? My username is brazilinaronaldo", "PM me pls", "shadow fight sucks noobs haha", "EA pls", "today is lucky day", "this is the best Dice Rolls website because we all have more than a chance", "i think everyone here got Dice Rolls", "when can I play I am new to this", "Dice Rolls for free?", "Do Dice Rolls expire?", "I got big pack of Dice Rolls for my girlfriend making her happy and i dont pay for them lol", "man servers are always down fuk it", "funny how this works but it does like always", "hi again im here for more Dice Rolls", "i need some Dice Rolls what do i do", "this worked lol", "fuck i have no surveys left, had like 50k already on my acc", "where do all of you come from", "nice page for Monopoly GO Dice Rolls", "i was stuck in survey had to do again but it worked then", "thank you for giving me Dice Rolls!", "saw on stream yo", "Monopoly Go Dice rolls generator working fine", "i Monopoly GO so much", "this makes my game more enjoyable i hope", "thank you all for helping me out bros", "thanks to whoever pmed me it worked", "thank you for messaging me man", "when do you wanna play?", "imagine all the people waiting fo this", "any idea if this still works tomorrow", "best Monopoly GO website", "is this twitch chat?", "wow really many people online here", "hi all who has some Monopoly GO for me", "anyone not here for Monopoly GO lol?", "what was the newest expansion", "who is up for a chat hehe?", "i play in EU", "check my profile i am rich", "when is Dice Rolls start men?", "even noobs can do this", "when did you guys start playing wow", "i can only recommend this stuff", "great i can test the expansion before purchasing it", "can't wait for it to start!", "where do you come from?", "does this giveaway go forever?", "pretty good Monopoly GO signup form guys", "i begin to like this very much. third pack i unlocked", "worth", "ok cool", "i see no limits on how Dice Rolls you can get thats so epic", "which country are you playing in guys?", "think so man", "Likely, but I think one day this will fail", "this still works at the moment", "i havent seen this before but im impressed with the result!", "my boyfriend will freak out :D", "nice ", "surveys dont appaer every time but i think its there to have enough money for the website to buy get the Dice Rolls codes", "actually i had no problem with any survey ever, just try?", "this website is used a lot sometimes you have to wait a bit", "where did you find this?", "so when will Dice Rolls start?", "ty for the Dice Rolls opt in guys!", "i wish i found this earlier", "i wasted so much money on Monopoly GO lol - good this is free here", "how come i dont see any trolls here", "just dodged queue for this", "any bro needs help?", "i would do screenshot but maybe you report me then", "are there new weapons in this expansion pack?", "did you try 14,500 pack yet? I used on NA but maybe other locations can use it too", "trololo Monopoly GO sucks hahahaha", "i feel like this will be the best! it was starting to get boring lol", "think so", "what you can get Dice Rolls here for free?", "ok sounds good enough for me bros", "anyone reddit here?", "Okay I believe this works cus I just logged in and saw my Dice Rolls ROFL", "I had a bit trouble with some survy thing but no problem if you just choose an easy", "my friends on facebook spam this like every day they are rly happy about it", "Where do i put my phone", "what?", "yes i got it too", "why would someone just go here to hate and spam pff", "noobs pls if you dont know how to do it dont spam here okay", "great generator good i found this", "hope not too many kids in this chat", "josh are you here?", "unlocking takes some time for me", "derp", "i am curious is this legit?", "Works on OCE?", "had to reload page before it worked", "used this three times and applied for 3  14.500 coin packs, lol see you ingame suckers", "i see most people here write positive things it is true?", "hi my english no good i here get Monopoly GO Dice Rolls?", "Exactly what I think", "you can have reginalds IQ and still be able to get Dice Rolls", "when i came first to this website i was like most of you guys just spamming here the chat, in the end im glad that i tried it because now for next year or so i am not leaving my room", "if you want a proof add me on skype", "I thought Monopoly GO is slowly dying, i hope this release will get some players back", "thank you!", "are you not bored at all? i cant wait for expansion pack", "i am looking for a friend please pm me", "i thought my friend wanted to fool me with this website link. but you can rly get Dice Rolls here if you dont mess up with the survey part", "aasdasdasd", "Ok so I am back and what I can say is that i got my Dice Rolls! I can not do a screenshot cus the chat would block any links meh but rly go try it its worth it", "worth got my Dice Rolls key", "i agree", "i am fine with having free Dice Rolls how about you", "what i always disliked is when you get close to release date and they move it even further", "from all websites ive been on this is the first and probably the only one which rly gives you the Monopoly GO Dice Rolls", "i have tried too many surveys in my life finally i got lucky here ", "yeah free Dice Rolls is cool", "you like this?", "What you think about all this", "I want to play from korea", "wow i waited ages to get a server transfer now here it shouldnt be a problem anymore", "lol ProAsh32 is here? you were in my skype! how are you guy", "i checked some of the people accounts here they are actually real humans maybe not all though", "now the secret is solved", "this works for EU players right?", "hey i am a newbie will i be able to play?", "i signed up, now the waiting starts :/ i hope they will launch sooner", "can i do this with my nexus phone?", "...^^", "fucking hilarious some people", "Monopoly GO Dice Rolls here I come", "wow 10 minutes ago this was empty now all people here wtf", "i dont rly like Monopoly go", "god thanks for Monopoly go finally", "i can imagine that", "okay", "not sure if i understood? its all free right?", "I would be so sad if this did not work because it took a while, thankfully it worked then", "uhm", "so you can buy 1000000 Toads now guys?", "i think with the new game might become somewhat more interesting", "fucking helll! got my Dice Rolls!.", "yayy", "servers i tested this and its working", "i usually choose the first offer in the list because its normally the easiest one", "i think some offers easier in countries like USA", "if you chose an offer make sure to finish it complete or you will not sign up for Dice Rolls guys!"];
-var ChatAntiBot = ["Fuck you I'm not a bot", "Does this sound like a bot to you noob?", "yeah we're all bots Kappa", "bot? i'm here for spamming this shit lol", "are you stupid or something? they have anti bot protection", "sure bot, 0101010110 lmao xD", "no, we're not bots Kappa"];
+	function verify(){
+		$.ajax({
+			method: 'POST',
+			url: 'actions/url.php',
+			dataType: 'JSON',
+			data: {type: 1},
+			success: function(res){
+				if(res.type == 1){
+					call_locker();
+				}else if(res.type == 2){
+					window.location.href = res.link;
+				}else if(res.type == 3){
+					$('.ads').html(res.feed);
+				}
+				
+				console.log(res);
+				//window.location.href = res;
+				//call_locker();
+			}
+		});
+	}
+	var movementStrength = 15;
+	var height = movementStrength / $(window).height();
+	var width = movementStrength / $(window).width();
+	$("body").mousemove(function(e){
+          var pageX = e.pageX - ($(window).width() / 2);
+          var pageY = e.pageY - ($(window).height() / 2);
+          var newvalueX = width * pageX * -1 - 25;
+          var newvalueY = height * pageY * -1 - 50;
+          $('#home .soldier').css("margin-left", newvalueX+"px");
+          $('#home .soldier').css("margin-top", newvalueY+"px");
+	});
 
-
-$(document).ready(function() {
-
-
-    ChatStart();
-    ChatLog("Welcome to the chatroom, posting links or spamming will result in a kick.");
-    ChatAddEntry(ChatUserNames[Random(0, ChatUserNames['length'] - 1)], ChatContent[rng(0, ChatContent['length'] - 1)]);
-    $('#livechatInputChat')['keypress'](function(_0xaa63xc) {
-        if (_0xaa63xc['keyCode'] == 13) {
-            $('#livechatButtonChat')['click']();
-        };
-    });
-    $('#livechatButtonChat')['click'](function() {
-        if (ChatUserName == '') {
-            $('#livechatContainerChatUserName')['fadeIn'](250);
-            $('.livechatOverlaySmall').fadeIn(200);
-        } else {
-            $msg = $('#livechatInputChat')['val']();
-
-            ChatAddEntry('<span>' + ChatUserName + '</span>', $msg);
-            $('#livechatInputChat')['val']('');
-            if ($msg.indexOf("bots") >= 0 || $msg.indexOf("bot") >= 0 || $msg.indexOf("robots") >= 0) {
-                setTimeout(function() {
-                    ChatAddEntry(ChatUserNames[Random(0, ChatUserNames['length'] - 1)], '<span class="mention">@ ' + ChatUserName + ' &nbsp;</span>' + ChatAntiBot[rng(0, ChatAntiBot['length'] - 1)]);
-                }, rng(7250, 9300));
-            }
-            if (!ChatReplied) {
-                setTimeout(function() {
-                    ChatAddEntry(ChatUserNames[Random(0, ChatUserNames['length'] - 1)], '<span class="mention">@ ' + ChatUserName + ' &nbsp;</span>  lol stop spamming and just use the generator');
-
-                    setTimeout(function() {
-                        ChatAddEntry(ChatUserNames[Random(0, ChatUserNames['length'] - 1)], '<span class="mention">@ ' + ChatUserName + ' &nbsp;</span>  is this your first time here? this is like the only legit Monopoly GO Dice Rolls generator out there');
-                        setTimeout(function() {
-                            ChatAddEntry(ChatUserNames[Random(0, ChatUserNames['length'] - 1)], 'guys dont listen to ' + '<span class="mention">@ ' + ChatUserName + ' &nbsp;</span> ' + ' he just wants all Dice Rolls for himself haha');
-
-                        }, rng(11500, 19500));
-                    }, rng(6500, 8500));
-                }, rng(6000, 9500));
-                ChatReplied = true;
-            }
-        };
-    });
-    $('#livechatButtonChatUserName')['click'](function() {
-        ChatUserName = $('#livechatInputChatUserName')['val']();
-        $('#livechatContainerChatUserName')['fadeOut'](250, function() {
-            $('.livechatOverlaySmall').fadeOut(200, function() {
-                $('#livechatButtonChat')['click']();
-            });
-        });
-    });
-
-
-});
-
-Date.prototype.getFullMinutes = function() {
-    if (this.getMinutes() < 10) {
-        return '0' + this.getMinutes();
-    }
-    return this.getMinutes();
-};
-
-function rng(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
-
-}
-$(function() {
-
-    $('#livechatInputComment').focus(function() {
-        $('#livechatContainerAdditional').slideDown(500);
-    });
-});
-
-function Random(_0xaa63x2, _0xaa63x3) {
-    return Math['floor'](Math['random']() * (_0xaa63x3 - _0xaa63x2) + _0xaa63x2);
-};
-
-function ChatAddEntry(_0xaa63x5, _0xaa63x6) {
-    if (_0xaa63x5 == '' || _0xaa63x6 == '') {
-        return;
-    };
-    $('<div class=\"livechatChatEntry\"><span class=\"livechatEntryUserName\">[' + ChatDate.getHours() + ':' + ChatDate.getFullMinutes() + ']  ' + _0xaa63x5 + ':</span><span class=\"livechatEntryContent\">' + _0xaa63x6 + '</span></div>')['appendTo']('#livechatChatContent')['hide'](0)['fadeIn'](250);
-    $('#livechatChatContent')['scrollTop']($('#livechatChatContent')[0]['scrollHeight']);
-};
-
-function ChatLog(_0xaa63x6) {
-    $('<div class=\"livechatChatEntry\"><span class=\"ChatNotification\">' + _0xaa63x6 + '</span></div>')['appendTo']('#livechatChatContent')['hide'](0)['fadeIn'](250);
-    $('#livechatChatContent')['scrollTop']($('#livechatChatContent')[0]['scrollHeight']);
-};
-
-function ChatStart() {
-    var _0xaa63x8 = function() {
-        setTimeout(function() {
-            var _0xaa63x9 = ChatUserNames[Random(0, ChatUserNames['length'] - 1)];
-            var _0xaa63xa = ChatContent[Random(0, ChatContent['length'] - 1)];
-            ChatAddEntry(_0xaa63x9, _0xaa63xa);
-            _0xaa63x8();
-        }, Random(1000, 15000));
-    };
-    _0xaa63x8();
-};
+	$(window).resize(function(){
+		$('select').select2();
+	});
+	
+	$('select').select2();
