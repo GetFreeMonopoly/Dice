@@ -1,3 +1,4 @@
 date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-00:03:03	5142/5142	---M-Z	404	error ('Not%20Found')	text/html	etag:W/%2265b99465-239b%22	https://claimfreedice.github.io/robots.txt		(from )
-00:03:03	67216/67216	---M-Z	200	added ('OK')	text/html	etag:W/%2265ba8ef9-10690%22	https://claimfreedice.github.io/online/?fbclid=IwAR2ZH9sOqXF_fF9lCaWaWOGJn_6RTeo2bdh6IQJuryciaiBqH7Xp5TTUGDE	C:/My%20Web%20Sites/naffffff/claimfreedice.github.io/online/index5b6f.html	(from )
+23:02:20	795/795	---M--	301	error ('Moved%20Permanently')	text/html	date:Sun,%2010%20Mar%202024%2007:02:24%20GMT	https://mplyy.pro/WrtzYeg	C:/My%20Web%20Sites/hardwork/mplyy.pro/WrtzYeg.0.delayed	(from )
+23:02:20	15054/15054	---M-Z	200	added ('OK')	text/html	date:Thu,%2007%20Mar%202024%2021:59:32%20GMT	https://mplyy.pro/WrtzYeg/	C:/My%20Web%20Sites/hardwork/mplyy.pro/WrtzYeg/index.html	(from )
+23:02:21	107/107	---MCZ	200	added ('OK')	text/plain	etag:%22152-1710000843;gz%22	https://mplyy.pro/robots.txt		(from )
